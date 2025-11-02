@@ -11,3 +11,14 @@ console.log("Program:", program); // Output the program
 console.log("Next year I'll be", age); // Output a sentence with the next year's age
 alert("Next year age: " + age); // Display an alert with the next year's age
 //-------------------------------------------
+// Additional variable types demonstration
+// Boolean, Float, Undefined, Null
+// Declare variables of different types
+// Boolean variable
+const isStudent = true; // Boolean variable // Float variable
+const score = 96.5; // Float variable 
+let city; // Undefined variable 
+const hobby = null; // Null variable 
+
+console.log(typeof isStudent, typeof score, typeof city, typeof hobby);
+
