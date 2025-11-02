@@ -39,3 +39,20 @@ console.log(user); // null // Log the user variable to the console
 user = "Rocky";   // later, user logs in // assign a string value to user
 console.log(user); // "Rocky" // Log the user variable to the console
 //-------------------------------------------
+
+// A mini challenge
+//Exercise 4: Mini Challenge
+//Create three variables: country, language, goal.
+//Print: "I live in <country>, I speak <language>, and I want to become a <goal>."
+const country = "USA"; // string variable
+let language = "English"; // string variable
+let population = 331000000; // number variable
+const goal = "Software Engineer"; // string variable
+console.log("I live in " + country + ", I speak " + language + ", and I want to become a " + goal + "."); // Output the sentence // Print the sentence // using concatenation // combining strings and variables // using + operator // to join them together // to form a complete sentence 
+population = population + 1000000; // increment population by 1,000,000
+console.log("Country:", country); // Output the country
+console.log("Language:", language); // Output the language
+console.log("Population:", population); // Output the population
+console.log("Goal:", goal); // Output the goal
+alert("Population after increase: " + population); // Display an alert with the updated population
+//-------------------------------------------
