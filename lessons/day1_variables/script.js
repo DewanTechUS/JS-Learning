@@ -15,10 +15,27 @@ alert("Next year age: " + age); // Display an alert with the next year's age
 // Boolean, Float, Undefined, Null
 // Declare variables of different types
 // Boolean variable
-const isStudent = true; // Boolean variable // Float variable
-const score = 96.5; // Float variable 
-let city; // Undefined variable 
-const hobby = null; // Null variable 
-
-console.log(typeof isStudent, typeof score, typeof city, typeof hobby);
-
+const isStudent = true; // Boolean variable
+const score = 96.5; // Float variable
+let city; // Undefined variable // its value is undefined // you can assign a value later if needed
+const hobby = null; // Null variable
+alert(isStudent, score, city, hobby); // Display an alert with the variable values
+console.log(isStudent, score, city, hobby); // Log the variable values to the console
+// Assign a value to the undefined variable // city // now we assign a value // to the previously undefined variable
+city = "Atlanta"; // Assign a value to the previously undefined variable
+console.log(city);  // Log the city variable to the console
+alert(city); // Display an alert with the city variable
+//-------------------------------------------
+// const = creating a constant variable (the value cannot be reassigned).
+// let = creating a variable that can be reassigned.
+// String = A sequence of characters used to represent text. Enclosed in quotes.
+// Number = A numeric data type used to represent both integers and floating-point numbers. 
+// hobby = The name of the variable.
+// null = A special value in JavaScript that means “no value” or “empty on purpose.”
+// I know this variable exists, but it doesnt have any value right now - and that’s intentional.
+let user = null;  // user is not logged in yet // assign null to user
+console.log(user); // null // Log the user variable to the console      
+// later, user logs in
+user = "Rocky";   // later, user logs in // assign a string value to user
+console.log(user); // "Rocky" // Log the user variable to the console
+//-------------------------------------------
