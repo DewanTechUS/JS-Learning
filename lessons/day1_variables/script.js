@@ -1,7 +1,7 @@
 // Day 1 - Variables Lesson // This script demonstrates the use of variables in JavaScript // It includes string and number variables, as well as basic operations
 let name = "Rocky"; // string variable // use let to allow reassignment
 const program = "Per Scholas"; // string variable // use const for variables that won't change
-let age = 27; // number variable // use let to allow reassignment
+let age = 38; // number variable // use let to allow reassignment
 // Increment the age variable by 1 // increment age by 1 // age = age + 1;
 age = age + 1; // increment age by 1
 // Alternatively, you could use: age += 1; or age++;
@@ -43,12 +43,14 @@ console.log(user); // "Rocky" // Log the user variable to the console
 // A mini challenge
 //Exercise 4: Mini Challenge
 //Create three variables: country, language, goal.
-//Print: "I live in <country>, I speak <language>, and I want to become a <goal>."
+//                                                Print: "I live in <country>, I speak <language>, and I want to become a <goal>."
 const country = "USA"; // string variable
 let language = "English"; // string variable
 let population = 331000000; // number variable
 const goal = "Software Engineer"; // string variable
-console.log("I live in " + country + ", I speak " + language + ", and I want to become a " + goal + "."); // Output the sentence // Print the sentence // using concatenation // combining strings and variables // using + operator // to join them together // to form a complete sentence 
+console.log("I live in " + country + ", I speak " + language + ", and I want to become a " + goal + "."); // Output the sentence // Print the sentence // using \
+//  concatenation // combining strings and variables // using + operator // to join them together // to form a complete sentence 
+alert("I live in " + country + ", I speak " + language + ", and I want to become a " + goal + "."); // Output the sentence // Print the sentence // using 
 population = population + 1000000; // increment population by 1,000,000
 console.log("Country:", country); // Output the country
 console.log("Language:", language); // Output the language
@@ -56,3 +58,10 @@ console.log("Population:", population); // Output the population
 console.log("Goal:", goal); // Output the goal
 alert("Population after increase: " + population); // Display an alert with the updated population
 //-------------------------------------------
+// Document Object Model (DOM) Access Examples
+// Accessing various elements in the HTML document
+// Examples of accessing elements in the DOM
+document.getElementById("div");       // gets the <div>
+document.querySelector(".info");        // gets the <p>
+document.body;                          // gets the <body> element
+document.title;                         // gets the title of the page
