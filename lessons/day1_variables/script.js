@@ -65,3 +65,13 @@ document.getElementById("div");       // gets the <div>
 document.querySelector(".info");        // gets the <p>
 document.body;                          // gets the <body> element
 document.title;                         // gets the title of the page
+// Changing content of an element // Example of changing the text content of an element
+// Change the text content of the element with id "title" when the button is clicked // Add an event listener to the button
+// When the button is clicked, change the text content of the title element
+// Add event listener to the button
+// When button is clicked, change the title text
+// Add event listener to the button
+// When button is clicked, change the title text
+document.getElementById("changeBtn").addEventListener("click", () => {
+  document.getElementById("title").textContent = "DOM Manipulation is Fun!";
+});
